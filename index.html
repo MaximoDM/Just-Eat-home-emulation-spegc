@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Practica Final</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__navbar">
+            <div class="navbar__icon">
+                <img src="assets/imgs/icons/hambuger.svg" alt="hamburger">
+            </div>
+            <div class="navbar__logo">
+                <img src="assets/imgs/misc/logo-white.svg" alt="menu-icon" />
+            </div>
+            <div class="navbar__menus">
+                <img style="margin-top: -0.5vh;" src="assets/imgs/icons/filter.svg" alt="menu-icon" />
+                <img src="assets/imgs/icons/bars.svg" alt="menu-icon" />
+            </div>
+        </nav>
+        <nav class="header__navbar--pc">
+            <div class="navbar__logo">
+                <img src="assets/imgs/misc/logo-orange.svg" alt="menu-icon" />
+            </div>
+            <span class="navbar__profile">
+                <img class="profile__img" src="assets/imgs/icons/user-icon.svg" alt="user-icon" />
+                <a href="">Pedro</a>
+                <a style="margin-left:10px" href="" class="nabvar__help">Ayuda</a>
+            </span>
+        </nav>
+    </header>
+
+    <div class="container__search-bar">
+        <img src="assets/imgs/search-iconlupaEntera.svg" alt="lupa" />
+        <input type="text" class="search-bar__input" placeholder="Buscar restaurante o cocina" />
+    </div>
+    <div class="grid__desktop">
+        <main class="container">
+            <div class="container__search-bar--desktop">
+                <img src="assets/imgs/search-iconlupaEntera.svg" alt="lupa" />
+                <input type="text" class="search-bar__input" placeholder="Buscar restaurante o cocina" />
+            </div>
+            <div class="container__promo">
+                <div class="container__promos">
+                    <div class="promos__card">
+                        <img class="promos__img promos__img--orange" src="assets/imgs/promos/marcas-con-promocion.webp"
+                            alt="" />
+                        <span class="promos__text">Promo marcas</span>
+                    </div>
+                    <div class="promos__card">
+                        <img class="promos__img promos__img--purple" src="assets/imgs/promos/alimentacion.webp"
+                            alt="" />
+                        <span class="promos__text">Alimentación</span>
+                    </div>
+                    <div class="promos__card">
+                        <img class="promos__img promos__img--darkorange" src="assets/imgs/promos/alta-cocina.webp"
+                            alt="" />
+                        <span class="promos__text">Alta cocina</span>
+                    </div>
+                    <div class="promos__card">
+                        <img class="promos__img promos__img--lightpink" src="assets/imgs/promos/poke.webp" alt="" />
+                        <span class="promos__text">Poké</span>
+                    </div>
+                    <div class="promos__card">
+                        <img class="promos__img promos__img--sand" src="assets/imgs/promos/sushi.webp" alt="" />
+                        <span class="promos__text">Sushi</span>
+                    </div>
+                    <div class="promos__card">
+                        <img class="promos__img promos__img--grey" src="assets/imgs/promos/japonesa.webp" alt="" />
+                        <span class="promos__text">Japonesa</span>
+                    </div>
+                    <div class="promos__card">
+                        <img class="promos__img promos__img--salmon" src="assets/imgs/promos/mexicana.png" alt="" />
+                        <span class="promos__text">Mexicana</span>
+                    </div>
+                    <div class="promos__card">
+                        <img class="promos__img promos__img--ocre" src="assets/imgs/promos/sin-gluten.webp" alt="" />
+                        <span class="promos__text">Sin gluten</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container__address">
+                <img class="address__icon" src="assets/imgs/icons/map-icon.svg" alt="map-icon" />
+                <div class="address__street">
+                    <address>Calle Prueba, 35019, Las Palmas de Gran Canaria</address>
+                </div>
+                <div class="address__url">
+                    <a href="">cambiar dirección</a>
+                </div>
+            </div>
+            <div class="container__restaurants">
+                <span class="restaurants__openned-info">
+                    <img src="assets/imgs/icons/info.svg" alt="info-icon" />
+                    <span> 193 restaurantes abiertos </span>
+                </span>
+                <div class="restaurants__local">
+                    <div class="restaurants__imgs">
+                        <img class="imgs__backgrounds" src="assets/imgs/restaurants/sushi_ichiban/background.webp"
+                            alt="" />
+                        <img class="imgs__gifs" src="assets/imgs/restaurants/sushi_ichiban/logo.gif" alt="">
+                    </div>
+                    <section>
+                        <h1>Sushi Ichiban</h1>
+                        <div>
+                            <div>
+                                <img class="imgs__stars" src="assets/imgs/icons/star.svg" alt="" />
+                                <span class="restaurants__score">5.50 /6</span>
+                                <span>(191)</span>
+                                <span>Japonesa · Sushi</span>
+                            </div>
+                            <div>
+                                <span class="restaurants__minutes">35 - 50 min.</span>
+                                <span>Entrega GRATIS</span>
+                                <span>Pedido mínimo 12€</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="restaurants__local">
+                    <div class="restaurants__imgs">
+                        <img class="imgs__backgrounds" src="assets/imgs/restaurants/oh_que_bueno/background.jpg"
+                            alt="" />
+                        <img class="imgs__gifs" src="assets/imgs/restaurants/oh_que_bueno/logo.gif" alt="">
+                    </div>
+                    <section>
+                        <h1>Oh! Qué bueno</h1>
+                        <div>
+                            <div>
+                                <img class="imgs__stars" src="assets/imgs/icons/star.svg" alt="" />
+                                <span class="restaurants__score">5.50 /6</span>
+                                <span>(371)</span>
+                                <span>Hamburguesas</span>
+                            </div>
+                            <div>
+                                <span class="restaurants__minutes">40 - 55 min.</span>
+                                <span>Entrega desde 2.65€</span>
+                                <span>Sin pedido mínimo</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="restaurants__local">
+                    <div class="restaurants__imgs">
+                        <img class="imgs__backgrounds" src="assets/imgs/restaurants/coki/background.webp" alt="" />
+                        <img class="imgs__gifs" src="assets/imgs/restaurants/coki/logo.gif" alt="">
+                    </div>
+                    <section>
+                        <h1>Cokí Mesa y López</h1>
+                        <div>
+                            <div>
+                                <img class="imgs__stars" src="assets/imgs/icons/star.svg" alt="" />
+                                <span class="restaurants__score">5.30 /6</span>
+                                <span>(131)</span>
+                                <span>Sana · Sin gluten</span>
+                            </div>
+                            <div>
+                                <span class="restaurants__minutes">35 - 50 min.</span>
+                                <span>Entrega GRATIS</span>
+                                <span>Sin pedido mínimo</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="restaurants__local">
+                    <div class="restaurants__imgs">
+                        <img class="imgs__backgrounds" src="assets/imgs/restaurants/subway/background.jpg" alt="" />
+                        <img class="imgs__gifs" src="assets/imgs/restaurants/subway/logo.gif" alt="">
+                    </div>
+                    <section style="height: 12vh;" class="restaurants__lastlocation">
+                        <h1>Subway</h1>
+                        <div>
+                            <div>
+                                <img class="imgs__stars" src="assets/imgs/icons/star.svg" alt="" />
+                                <span class="restaurants__score">5.50 /6 </span><span>(191)</span>
+
+                                <span>Americana · Sandwiches</span>
+                            </div>
+                            <div>
+                                <span class="restaurants__minutes">35 - 50 min.</span>
+                                <span>Entrega GRATIS</span>
+                                <span>Sin pedido mínimo</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+            </div>
+            <div class="container__filters">
+                <span class="filters__title">
+                    <img src="assets/imgs/icons/category-hexagon.svg" alt="category-icon" />
+                    <h3>Categorías A-Z</h3>
+                </span>
+                <div class="filters__category">
+                    <span class="category__names">Africana</span>
+                    <span>1</span>
+                </div>
+                <div class="filters__category">
+                    <span class="category__names">Alimentación</span>
+                    <span>3</span>
+                </div>
+                <div class="filters__category">
+                    <span class="category__names">Alta cocina</span>
+                    <span>5</span>
+                </div>
+                <div class="filters__category">
+                    <span class="category__names">Americana</span>
+                    <span>45</span>
+                </div>
+                <div class="filters__category">
+                    <span class="category__names">Andaluza</span>
+                    <span>1</span>
+                </div>
+                <div class="filters__category">
+                    <span class="category__names">Árabe</span>
+                    <span>3</span>
+                </div>
+                <div class="filters__category">
+                    <span class="category__names">Argentina</span>
+                    <span>8</span>
+                </div>
+                <div class="filters__category">
+                    <span class="category__names">BBQ</span>
+                    <span>2</span>
+                </div>
+                <div class="filters__category">
+                    <span class="category__names">Bocadillos/Wraps</span>
+                    <span>8</span>
+                </div>
+                <div class="filters__category">
+                    <span class="category__names">Casera</span>
+                    <span>29</span>
+                </div>
+                <div class="filters__category">
+                    <span class="category__names">China</span>
+                    <span>12</span>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
