@@ -3,11 +3,11 @@ const app = express();
 const path = require('path');
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 })
 
 app.get('/css', (req, res) => {
-    res.sendFile(path.join(__dirname, '/styles.css'));
+    res.sendFile(path.join(__dirname, 'styles.css'));
 })
 
 
