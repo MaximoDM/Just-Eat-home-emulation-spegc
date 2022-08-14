@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/index.html'));
 })
 
-app.get('/src/css', (req, res) => {
+app.get('/css', (req, res) => {
     res.sendFile(path.join(__dirname, '/styles.css'));
 })
 
