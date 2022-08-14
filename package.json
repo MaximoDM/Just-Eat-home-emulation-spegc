@@ -1,0 +1,23 @@
+{
+  "name": "html_ejerciciofinal",
+  "version": "1.0.0",
+  "description": "Html final practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximoDM/Just-Eat-home-emulation-spegc.git"
+  },
+  "author": "MaximoDM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaximoDM/Just-Eat-home-emulation-spegc/issues"
+  },
+  "homepage": "https://github.com/MaximoDM/Just-Eat-home-emulation-spegc#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  }
+}
